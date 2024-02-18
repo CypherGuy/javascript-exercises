@@ -3,6 +3,7 @@ const convertToCelsius = function(degreeFahrenheit) {
   return Math.round(c * 10) / 10;
 };
 
+
 const convertToFahrenheit = function(degreeCelcius) {
   let f = degreeCelcius * 9 / 5 + 32;
   return Math.round(f * 10) / 10;
